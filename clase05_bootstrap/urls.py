@@ -21,4 +21,6 @@ from backoffice.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index, name='index'),
+    path('listado', listado, name='listado'),
+    path('agregar', agregar, name='agregar'),
 ]
